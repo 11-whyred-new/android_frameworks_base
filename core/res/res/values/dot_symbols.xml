@@ -86,4 +86,7 @@
    <!-- Screen recorder framerate limit -->
    <java-symbol type="integer" name="config_screenRecorderMaxFramerate" />
 
+  <!-- Button backlight -->
+   <java-symbol type="integer" name="config_deviceSupportsButtonBrightnessControl" />
+   <java-symbol type="dimen" name="config_buttonBrightnessSettingDefaultFloat" />
 </resources>
