@@ -5253,6 +5253,12 @@ public final class Settings {
          */
         public static final String DOT_BUCKET_OVERLAY = "dot_bucket_overlay";
 
+         /**
+         * Swipe to screenshot
+         * @hide
+         */
+        public static final String SWIPE_TO_SCREENSHOT = "swipe_to_screenshot";
+
         /**
          * Whether to enable PULSE Edge lights
          * @hide
@@ -5628,6 +5634,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(INCREASING_RING_START_VOLUME);
             PRIVATE_SETTINGS.add(INCREASING_RING_RAMP_UP_TIME);
             PRIVATE_SETTINGS.add(INCALL_FEEDBACK_VIBRATE);
+            PRIVATE_SETTINGS.add(SWIPE_TO_SCREENSHOT);
         }
 
         /**
