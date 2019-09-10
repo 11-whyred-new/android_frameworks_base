@@ -83,4 +83,8 @@
 
     <!-- DC Dimming -->
     <java-symbol type="string" name="config_deviceDcDimmingSysfsNode" />
-</resources>
+
+  <!-- Post reset runnable for all clients -->
+  <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
+
+</resources> 
