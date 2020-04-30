@@ -45,4 +45,7 @@
     <dimen name="dismiss_all_fab_src_size">24dp</dimen>
 
     <dimen name="dot_quick_container_spacing">-16dp</dimen>
+
+    <!-- App Lock -->
+    <dimen name="applock_icon_dimension">54dp</dimen>
 </resources>
