@@ -82,4 +82,9 @@
     <!-- Button backlight -->
     <dimen name="config_buttonBrightnessSettingDefaultFloat">1.0</dimen>
     <bool name="config_deviceHasVariableButtonBrightness">false</bool>
+
+    <!-- Defines the sysfs attribute path used by the device
+         to enable/disable DC dimming. -->
+    <string name="config_deviceDcDimmingSysfsNode"></string>
+
 </resources>
