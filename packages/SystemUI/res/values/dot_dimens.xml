@@ -65,4 +65,8 @@
     <color name="edge_light_green">#3aa853</color>
     <color name="edge_light_red">#ea4234</color>
     <color name="edge_light_yellow">#fbbc06</color>
+
+    <dimen name="dotroundCorners">300dp</dimen>
+    <dimen name="dotNotificationsRadius">24dp</dimen>
+    <dimen name="qs_media_top_margin">8dp</dimen>
 </resources>
