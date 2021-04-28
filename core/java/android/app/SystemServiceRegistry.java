@@ -943,7 +943,7 @@ public final class SystemServiceRegistry {
                 IBinder b = ServiceManager.getServiceOrThrow(Context.APPLOCK_SERVICE);
                 IAppLockService service = IAppLockService.Stub.asInterface(b);
                 return new AppLockManager(service);
-            }})
+            }});
 
         registerService(Context.TV_INPUT_SERVICE, TvInputManager.class,
                 new CachedServiceFetcher<TvInputManager>() {
