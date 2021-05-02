@@ -4943,11 +4943,6 @@ public final class Settings {
         public static final String CAMERA_LAUNCH = "camera_launch";
 
         /**
-         * @hide
-         */
-        public static final String GLOBAL_ACTIONS_LIST = "global_actions_list";
-
-        /**
          * Whether allowing pocket service to register sensors and dispatch informations.
          *   0 = disabled
          *   1 = enabled
@@ -9242,11 +9237,6 @@ public final class Settings {
          * @hide
          */
         public static final String NOTIFICATION_DISMISS_RTL = "notification_dismiss_rtl";
-
-        /**
-         * @hide
-         */
-        public static final String ADVANCED_REBOOT = "advanced_reboot";
 
         /**
          * Comma separated list of QS tiles that have been auto-added already.
